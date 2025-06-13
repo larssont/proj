@@ -1,7 +1,7 @@
 from hypothesis import given
 from hypothesis import strategies as st
 
-from proj._math import add_numbers
+from num.some import add_numbers
 
 
 @given(st.floats(), st.floats())
